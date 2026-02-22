@@ -1,0 +1,41 @@
+.preview-root {
+  min-height: 100vh;
+  background: #faf9f7;
+}
+
+.preview-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: rgba(250, 249, 247, 0.95);
+  border-bottom: 1px solid #efe8e2;
+}
+
+.preview-toggle-btn {
+  border: 1px solid #dcd8d2;
+  border-radius: 999px;
+  background: #fff;
+  color: #3f4a4d;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+}
+
+.preview-toggle-btn:hover {
+  border-color: #b76e4b;
+  color: #b76e4b;
+}
+
+.preview-body {
+  padding-bottom: 3rem;
+}
+
+.preview-media-note {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #6b7a80;
+}

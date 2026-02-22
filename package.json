@@ -1,0 +1,14 @@
+{
+  "name": "relax-massage-egypt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page with Decap CMS content editing (EN/AR).",
+  "scripts": {
+    "check:content": "node scripts/validate-content.mjs",
+    "check:hooks": "node scripts/validate-hooks.mjs",
+    "check": "npm run check:content && npm run check:hooks",
+    "sync:seo": "node scripts/sync-seo-files.mjs",
+    "build": "npm run sync:seo && npm run check",
+    "cms:proxy": "npx decap-server"
+  }
+}

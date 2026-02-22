@@ -1,0 +1,289 @@
+{
+  "contact": {
+    "title": {
+      "en": "Let's relax",
+      "ar": "لنسترخِ معًا"
+    },
+    "text": {
+      "en": "Book a session or ask a question - I usually reply within an hour.",
+      "ar": "احجز جلسة أو اسأل أي سؤال - عادة أرد خلال ساعة."
+    },
+    "whatsapp": {
+      "en": "WhatsApp",
+      "ar": "واتساب"
+    },
+    "call": {
+      "en": "Call now",
+      "ar": "اتصل الآن"
+    },
+    "hours": {
+      "en": "Daily 09:00 - 21:00",
+      "ar": "يوميًا 09:00 - 21:00"
+    },
+    "location": {
+      "en": "Hurghada, Egypt (hotel / apartment visit)",
+      "ar": "الغردقة، مصر (زيارة للفندق / الشقة)"
+    }
+  },
+  "settings": {
+    "siteUrl": "https://example.com/",
+    "ga4MeasurementId": ""
+  },
+  "meta": {
+    "title": {
+      "en": "Relax Massage Egypt | Professional Massage in Hurghada",
+      "ar": "ريلاكس مساج مصر | مساج احترافي في الغردقة"
+    },
+    "description": {
+      "en": "Professional massage sessions in Hurghada, Egypt. Mobile service for hotels and apartments.",
+      "ar": "جلسات مساج احترافية في الغردقة، مصر. خدمة منزلية للفنادق والشقق."
+    },
+    "ogTitle": {
+      "en": "Relax Massage Egypt",
+      "ar": "ريلاكس مساج مصر"
+    },
+    "ogDescription": {
+      "en": "Book a professional massage session in Hurghada via WhatsApp or phone.",
+      "ar": "احجز جلسة مساج احترافية في الغردقة عبر واتساب أو الهاتف."
+    }
+  },
+  "about": {
+    "title": {
+      "en": "About me",
+      "ar": "نبذة عني"
+    },
+    "text1": {
+      "en": "I am a certified massage therapist with over 8 years of experience, working in the best hotels in Hurghada. My approach combines classical techniques and modern practices to give you deep relaxation and recovery.",
+      "ar": "أنا معالج مساج معتمد بخبرة أكثر من 8 سنوات، وعملت في أفضل فنادق الغردقة. طريقتي تجمع بين الأساليب الكلاسيكية والممارسات الحديثة لتحقيق الاسترخاء والتعافي."
+    },
+    "text2": {
+      "en": "Every session is tailored to your needs - whether it's relieving muscle tension, improving circulation, or simply escaping the hustle.",
+      "ar": "كل جلسة تُصمم حسب احتياجك، سواء لتخفيف الشد العضلي أو تحسين الدورة الدموية أو للابتعاد عن ضغوط اليوم."
+    },
+    "imageUrl": "/assets/uploads/портфолио-список-всех-проектов-подумать-над-реализацией-.jpg",
+    "imageAlt": {
+      "en": "Massage therapist portrait",
+      "ar": "صورة معالج مساج"
+    }
+  },
+  "contacts": {
+    "whatsapp": "https://wa.me/201000000000",
+    "phone": "+20 100 000 0000"
+  },
+  "testimonials": {
+    "title": {
+      "en": "Guest reviews",
+      "ar": "آراء الضيوف"
+    },
+    "items": [
+      {
+        "text": {
+          "en": "The best massage I've ever had! After a week of diving, my back felt brand new. Highly recommend.",
+          "ar": "أفضل جلسة مساج حصلت عليها. بعد أسبوع من الغوص شعرت أن ظهري عاد جديدًا. أنصح به بشدة."
+        },
+        "author": {
+          "en": "- Anna, Moscow",
+          "ar": "- آنا، موسكو"
+        }
+      },
+      {
+        "text": {
+          "en": "Professional, punctual, and incredibly relaxing. He even brought extra oils. 10/10 service.",
+          "ar": "احترافي ودقيق في الوقت ومريح جدًا. أحضر معه زيوت إضافية. خدمة 10/10."
+        },
+        "author": {
+          "en": "- Mark, London",
+          "ar": "- مارك، لندن"
+        }
+      },
+      {
+        "text": {
+          "en": "Perfect atmosphere, strong hands, and attention to problem zones. Will book again.",
+          "ar": "أجواء ممتازة، قوة مناسبة، واهتمام بالمناطق المتعبة. سأحجز مرة أخرى."
+        },
+        "author": {
+          "en": "- Fatima, Cairo",
+          "ar": "- فاطمة، القاهرة"
+        }
+      }
+    ]
+  },
+  "hero": {
+    "title": {
+      "en": "Deep relaxation on the Red Sea",
+      "ar": "استرخاء عميق على البحر الأحمر"
+    },
+    "subtitle": {
+      "en": "Professional massage for your wellness and recovery in Egypt",
+      "ar": "مساج احترافي لصحتك وتعافيك في مصر"
+    },
+    "cta": {
+      "en": "Book via WhatsApp",
+      "ar": "احجز عبر واتساب"
+    }
+  },
+  "footer": {
+    "copyright": {
+      "en": "© 2025 Relax Massage Egypt",
+      "ar": "© 2025 ريلاكس مساج مصر"
+    },
+    "disclaimer": {
+      "en": "All rights reserved",
+      "ar": "جميع الحقوق محفوظة"
+    }
+  },
+  "branding": {
+    "logo": {
+      "en": "Relax Massage",
+      "ar": "ريلاكس مساج"
+    },
+    "languageToggle": {
+      "en": "English / العربية",
+      "ar": "العربية / English"
+    },
+    "languageToggleAria": {
+      "en": "Switch to Arabic",
+      "ar": "التبديل إلى الإنجليزية"
+    }
+  },
+  "benefits": {
+    "title": {
+      "en": "Why choose me",
+      "ar": "لماذا تختارني"
+    },
+    "items": [
+      {
+        "en": "✓ 8+ years of experience in luxury hotels",
+        "ar": "✓ خبرة +8 سنوات في فنادق فاخرة"
+      },
+      {
+        "en": "✓ Individual approach - massage tailored to you",
+        "ar": "✓ أسلوب فردي - الجلسة مصممة خصيصًا لك"
+      },
+      {
+        "en": "✓ I come to your hotel / apartment",
+        "ar": "✓ أصل إلى الفندق أو الشقة"
+      },
+      {
+        "en": "✓ Professional organic oils",
+        "ar": "✓ زيوت عضوية احترافية"
+      },
+      {
+        "en": "✓ Flexible schedule, including early mornings and evenings",
+        "ar": "✓ مواعيد مرنة صباحًا ومساءً"
+      }
+    ]
+  },
+  "services": {
+    "title": {
+      "en": "Services",
+      "ar": "الخدمات"
+    },
+    "detailsButtonOpen": {
+      "en": "View details",
+      "ar": "عرض التفاصيل"
+    },
+    "detailsButtonClose": {
+      "en": "Hide details",
+      "ar": "إخفاء التفاصيل"
+    },
+    "durationLabel": {
+      "en": "Duration",
+      "ar": "المدة"
+    },
+    "priceLabel": {
+      "en": "Price",
+      "ar": "السعر"
+    },
+    "items": [
+      {
+        "title": {
+          "en": "Swedish massage",
+          "ar": "المساج السويدي"
+        },
+        "desc": {
+          "en": "Full-body relaxation with long, flowing strokes to ease tension.",
+          "ar": "استرخاء كامل للجسم بحركات انسيابية طويلة لتخفيف التوتر."
+        },
+        "details": {
+          "en": "A calming full-body treatment with pressure tailored to your comfort. Helps improve circulation and reduce stress after travel.",
+          "ar": "جلسة مهدئة لكامل الجسم مع ضغط مناسب لراحتك. تساعد على تحسين الدورة الدموية وتقليل التوتر بعد السفر."
+        },
+        "duration": {
+          "en": "60 minutes",
+          "ar": "60 دقيقة"
+        },
+        "price": {
+          "en": "From 35 USD",
+          "ar": "ابتداءً من 35 دولار"
+        }
+      },
+      {
+        "title": {
+          "en": "Sports massage",
+          "ar": "المساج الرياضي"
+        },
+        "desc": {
+          "en": "Targeted work on deep tissues, ideal for active guests and athletes.",
+          "ar": "عمل مركز على الأنسجة العميقة، مناسب للضيوف النشطين والرياضيين."
+        },
+        "details": {
+          "en": "Focused deep-tissue session for muscle recovery, stiffness release, and performance support after sport or diving activities.",
+          "ar": "جلسة مركزة للأنسجة العميقة لتسريع تعافي العضلات وتخفيف التيبس ودعم الأداء بعد الرياضة أو الغوص."
+        },
+        "duration": {
+          "en": "75 minutes",
+          "ar": "75 دقيقة"
+        },
+        "price": {
+          "en": "From 45 USD",
+          "ar": "ابتداءً من 45 دولار"
+        }
+      },
+      {
+        "title": {
+          "en": "Aromatherapy",
+          "ar": "العلاج بالروائح"
+        },
+        "desc": {
+          "en": "Essential oils combined with gentle massage to restore energy balance.",
+          "ar": "زيوت عطرية مع مساج لطيف لاستعادة توازن الطاقة."
+        },
+        "details": {
+          "en": "Gentle relaxing technique with selected essential oils to support sleep quality, reduce anxiety, and improve overall mood.",
+          "ar": "تقنية استرخاء لطيفة باستخدام زيوت عطرية مختارة لتحسين جودة النوم وتقليل القلق وتحسين المزاج العام."
+        },
+        "duration": {
+          "en": "60 minutes",
+          "ar": "60 دقيقة"
+        },
+        "price": {
+          "en": "From 40 USD",
+          "ar": "ابتداءً من 40 دولار"
+        }
+      },
+      {
+        "title": {
+          "en": "Hot stones",
+          "ar": "الأحجار الساخنة"
+        },
+        "desc": {
+          "en": "Warm basalt stones melt away muscle stiffness and improve blood flow.",
+          "ar": "أحجار بازلت دافئة لتخفيف تيبس العضلات وتحسين تدفق الدم."
+        },
+        "details": {
+          "en": "Warm stones applied to key tension zones with massage techniques for deep relaxation and improved flexibility.",
+          "ar": "تطبيق أحجار دافئة على مناطق الشد الرئيسية مع تقنيات مساج لتحقيق استرخاء عميق وتحسين المرونة."
+        },
+        "duration": {
+          "en": "90 minutes",
+          "ar": "90 دقيقة"
+        },
+        "price": {
+          "en": "From 55 USD",
+          "ar": "ابتداءً من 55 دولار"
+        }
+      }
+    ]
+  }
+}

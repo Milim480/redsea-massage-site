@@ -1,0 +1,317 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+editor:
+  preview: true
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    files:
+      - name: "site_content"
+        label: "Main Content"
+        file: "content/site-content.json"
+        format: "json"
+        fields:
+          - label: "Branding"
+            name: "branding"
+            widget: "object"
+            fields:
+              - label: "Logo"
+                name: "logo"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Language Toggle Label"
+                name: "languageToggle"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Language Toggle ARIA"
+                name: "languageToggleAria"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+
+          - label: "Meta"
+            name: "meta"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Description"
+                name: "description"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Arabic", name: "ar", widget: "text" }
+              - label: "OG Title"
+                name: "ogTitle"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "OG Description"
+                name: "ogDescription"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Arabic", name: "ar", widget: "text" }
+
+          - label: "Site Settings"
+            name: "settings"
+            widget: "object"
+            fields:
+              - { label: "Site URL", name: "siteUrl", widget: "string", hint: "Format: https://your-domain.com/" }
+              - { label: "GA4 Measurement ID", name: "ga4MeasurementId", widget: "string", required: false, hint: "Example: G-XXXXXXXXXX" }
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Subtitle"
+                name: "subtitle"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Arabic", name: "ar", widget: "text" }
+              - label: "CTA"
+                name: "cta"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Text 1"
+                name: "text1"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Arabic", name: "ar", widget: "text" }
+              - label: "Text 2"
+                name: "text2"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Arabic", name: "ar", widget: "text" }
+              - { label: "Image", name: "imageUrl", widget: "image", required: false }
+              - label: "Image Alt"
+                name: "imageAlt"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string", required: false }
+                  - { label: "Arabic", name: "ar", widget: "string", required: false }
+
+          - label: "Services"
+            name: "services"
+            widget: "object"
+            fields:
+              - label: "Section Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Details Button (Open)"
+                name: "detailsButtonOpen"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Details Button (Close)"
+                name: "detailsButtonClose"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Duration Label"
+                name: "durationLabel"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Price Label"
+                name: "priceLabel"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.title.en}} | {{fields.duration.en}} | {{fields.price.en}}"
+                fields:
+                  - label: "Title"
+                    name: "title"
+                    widget: "object"
+                    fields:
+                      - { label: "English", name: "en", widget: "string" }
+                      - { label: "Arabic", name: "ar", widget: "string" }
+                  - label: "Description (Card Short)"
+                    name: "desc"
+                    widget: "object"
+                    hint: "Visible on card before clicking details."
+                    fields:
+                      - { label: "English", name: "en", widget: "text" }
+                      - { label: "Arabic", name: "ar", widget: "text" }
+                  - label: "Full Details (Expanded)"
+                    name: "details"
+                    widget: "object"
+                    hint: "Visible after clicking the details button."
+                    fields:
+                      - { label: "English", name: "en", widget: "text" }
+                      - { label: "Arabic", name: "ar", widget: "text" }
+                  - label: "Duration (Expanded)"
+                    name: "duration"
+                    widget: "object"
+                    hint: "Visible inside expanded details."
+                    fields:
+                      - { label: "English", name: "en", widget: "string", hint: "Example: 60 minutes" }
+                      - { label: "Arabic", name: "ar", widget: "string", hint: "مثال: 60 دقيقة" }
+                  - label: "Price (Expanded)"
+                    name: "price"
+                    widget: "object"
+                    hint: "Visible inside expanded details."
+                    fields:
+                      - { label: "English", name: "en", widget: "string", hint: "Example: From 35 USD" }
+                      - { label: "Arabic", name: "ar", widget: "string", hint: "مثال: ابتداءً من 35 دولار" }
+
+          - label: "Benefits"
+            name: "benefits"
+            widget: "object"
+            fields:
+              - label: "Section Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.en}} / {{fields.ar}}"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "object"
+            fields:
+              - label: "Section Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.author.en}} / {{fields.author.ar}}"
+                fields:
+                  - label: "Text"
+                    name: "text"
+                    widget: "object"
+                    fields:
+                      - { label: "English", name: "en", widget: "text" }
+                      - { label: "Arabic", name: "ar", widget: "text" }
+                  - label: "Author"
+                    name: "author"
+                    widget: "object"
+                    fields:
+                      - { label: "English", name: "en", widget: "string" }
+                      - { label: "Arabic", name: "ar", widget: "string" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - label: "Section Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Main Text"
+                name: "text"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Arabic", name: "ar", widget: "text" }
+              - label: "WhatsApp Button"
+                name: "whatsapp"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Call Button"
+                name: "call"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Hours"
+                name: "hours"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Location"
+                name: "location"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - label: "Copyright"
+                name: "copyright"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+              - label: "Disclaimer"
+                name: "disclaimer"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+
+          - label: "Contact Links"
+            name: "contacts"
+            widget: "object"
+            fields:
+              - { label: "WhatsApp URL", name: "whatsapp", widget: "string", hint: "Format: https://wa.me/201234567890" }
+              - { label: "Phone Number", name: "phone", widget: "string", hint: "Format: +20 100 000 0000" }
