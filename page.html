@@ -136,6 +136,28 @@
             <p class="footer__design" data-i18n="footer.disclaimer">All rights reserved</p>
         </div>
     </footer>
+    <script>
+      (function redirectIdentityTokenToAdmin() {
+        const hash = window.location.hash || "";
+        const hasIdentityToken = /(invite_token|confirmation_token|recovery_token|email_change_token)=/i.test(hash);
+
+        if (hasIdentityToken && !window.location.pathname.startsWith("/admin")) {
+          window.location.replace(`/admin/${hash}`);
+        }
+      })();
+    </script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
     <script type="module" src="js/app.js"></script>
 </body>
 </html>
